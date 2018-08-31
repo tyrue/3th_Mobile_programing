@@ -1,0 +1,33 @@
+evaluationDependsOn(':applications')
+
+android {
+    defaultConfig {
+        missingDimensionStrategy 'adid', 'lite', 'full'
+    }
+}
+
+dependencies {
+    implementation group: 'com.android.support', name: 'support-v4', version: project.ANDROID_SUPPORT_LIB_VERSION
+    implementation project(':libraries:kakaotalk')
+    implementation project(':libraries:kakaostory')
+    implementation project(':libraries:push')
+
+    implementation 'com.mcxiaoke.volley:library:1.0.19'
+    implementation "com.android.support:appcompat-v7:$ANDROID_SUPPORT_LIB_VERSION"
+
+    /**
+     * Below depdendencies should be in this gradle file even though they are already in
+     * applications.gradle because otherwise 'com.google.gms.google-services' plugin would not
+     * be able to detect firebase version and try to use default firebase version, which is likely
+     * to create a version conflict with the one used by push service.
+     */
+    implementation ("com.google.android.gms:play-services-gcm:$GOOGLE_PLAY_SERVICES_VERSION") {
+        exclude module: 'support-v4'
+    }
+    implementation "com.google.firebase:firebase-messaging:$GOOGLE_PLAY_SERVICES_VERSION"
+    implementation "com.google.firebase:firebase-core:$GOOGLE_PLAY_SERVICES_VERSION"
+    implementation "com.google.android.gms:play-services-base:$GOOGLE_PLAY_SERVICES_VERSION"
+
+    androidTestImplementation 'com.android.support.test.uiautomator:uiautomator-v18:2.1.3'
+}
+apply plugin: 'com.google.gms.google-services'

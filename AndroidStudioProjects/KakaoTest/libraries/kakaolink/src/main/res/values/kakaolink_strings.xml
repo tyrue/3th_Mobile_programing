@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- for kakaolink -->
+    <string name="com_kakao_alert_appKey">need to declare com.kakao.sdk.AppKey in your AndroidManifest.xml</string>
+    <string name="com_kakao_alert_install_kakaotalk">Please update KakaoTalk to the latest version.</string>
+    <string name="com_kakao_alert_uri_too_long">Failed to send message because it exceeds the message size limit. Please contact the app administrator.</string>
+</resources>

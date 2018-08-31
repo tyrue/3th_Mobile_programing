@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- for kakaolink -->
+    <string name="com_kakao_alert_appKey">AndroidManifest.xml에 com.kakao.sdk.AppKey을 선언해야 합니다.</string>
+    <string name="com_kakao_alert_install_kakaotalk">최신버전의 카카오톡으로 업데이트가 필요합니다.</string>
+    <string name="com_kakao_alert_uri_too_long">전송할 수 있는 메시지 용량을 초과하여 전송에 실패했습니다. 해당 앱의 관리자에게 문의해주세요. </string>
+</resources>

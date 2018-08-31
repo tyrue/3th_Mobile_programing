@@ -1,0 +1,250 @@
+subprojects {
+    apply plugin: 'com.android.library'
+    apply plugin: 'maven-publish'
+
+    android {
+        compileOptions.encoding = "UTF-8"
+        version = rootProject.version
+        compileSdkVersion ANDROID_BUILD_SDK_VERSION
+        buildToolsVersion ANDROID_BUILD_TOOL_VERSION
+
+        packagingOptions {
+            exclude 'META-INF/DEPENDENCIES'
+            exclude 'META-INF/NOTICE'
+            exclude 'META-INF/NOTICE.txt'
+            exclude 'META-INF/LICENSE'
+            exclude 'META-INF/LICENSE.txt'
+        }
+
+        defaultConfig {
+            minSdkVersion ANDROID_BUILD_MIN_SDK_VERSION
+            targetSdkVersion ANDROID_BUILD_TARGET_SDK_VERSION
+            versionCode rootProject.versionCode
+            versionName rootProject.version
+        }
+
+        buildTypes {
+            release {
+                debuggable false
+                minifyEnabled false
+            }
+
+            debug {
+                debuggable true
+                minifyEnabled false
+            }
+        }
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+
+        lintOptions {
+            abortOnError false
+        }
+    }
+
+    task sourcesJar(type: Jar) {
+        from android.sourceSets.main.java.srcDirs
+        classifier = SOURCE_CLASSIFIER
+    }
+}
+
+configure(subprojects - project(':libraries:test-common')) {
+    dependencies {
+        testImplementation project(':libraries:test-common')
+        testImplementation "junit:junit:$JUNIT_VERSION"
+        testImplementation "org.robolectric:robolectric:$ROBOLECTRIC_VERSION"
+        testImplementation "org.robolectric:shadows-support-v4:$ROBOLECTRIC_VERSION"
+        testImplementation "org.mockito:mockito-core:$MOCKITO_VERSION"
+        testImplementation "org.hamcrest:hamcrest-library:$HAMCREST_VERSION"
+    }
+
+    ext.configBuild = { variant ->
+        variant.assemble.doLast {
+            println "\n============================================================"
+            println "project module : ${getArtifactName(project, variant.flavorName, false)}"
+            println "project version : $project.version"
+            println "deploy phase : $rootProject.defaultDeployPhase"
+            println "============================================================\n"
+        }
+    }
+
+    android.libraryVariants.all { variant ->
+        configBuild(variant)
+    }
+
+    afterEvaluate {
+        publishing {
+            repositories {
+                maven {
+                    // change to point to your repo, e.g. http://my.org/repo
+                    if (project.version.endsWith('-SNAPSHOT')) {
+                        url NEXUS_SNAPSHOT_REPOSITORY_URL
+                    } else {
+                        url NEXUS_RELEASE_REPOSITORY_URL
+                    }
+                    credentials {
+                        username NEXUS_USERNAME
+                        password NEXUS_PASSWORD
+                    }
+                }
+            }
+
+            android.libraryVariants.all { variant ->
+                if (variant.buildType.name == 'release') {
+                    publications {
+                        "${getArtifactName(project, variant.flavorName, true)}" (MavenPublication) {
+                            groupId KAKAO_SDK_GROUP
+                            version project.version
+                            artifactId getModuleName(project, project.name, variant.flavorName)
+
+                            artifact sourcesJar
+                            variant.outputs.collect { output ->
+                                artifact(output.outputFile) {
+                                    builtBy variant.assemble
+                                }
+                            }
+
+                            pom.withXml {
+                                def dependenciesNode = asNode().appendNode('dependencies')
+
+                                //Iterate over the compile dependencies (we don't want the test ones), adding a <dependency> node for each
+                                configurations.api.allDependencies.each {
+                                    def dependencyNode = dependenciesNode.appendNode('dependency')
+                                    if (it.hasProperty('dependencyProject')) {
+                                        // kakao sdk modules
+                                        dependencyNode.appendNode('groupId', KAKAO_SDK_GROUP)
+                                        dependencyNode.appendNode('artifactId', getModuleName(project, it.name, it.targetConfiguration))
+                                        dependencyNode.appendNode('version', project.version)
+                                        dependencyNode.appendNode('type', ARTIFACT_TYPE)
+                                    } else {
+                                        // external dependencies
+                                        dependencyNode.appendNode('groupId', it.group)
+                                        dependencyNode.appendNode('artifactId', it.name)
+                                        dependencyNode.appendNode('version', it.version)
+                                    }
+                                }
+
+                                // Currently flavor-dependent dependencies only work for external dependencies, not Kakao SDK modules.
+                                // Build script should be extended to support this feature.
+                                if (variant.flavorName != '') {
+                                    configurations."${variant.flavorName}Implementation".allDependencies.each {
+                                        def dependencyNode = dependenciesNode.appendNode('dependency')
+                                        dependencyNode.appendNode('groupId', it.group)
+                                        dependencyNode.appendNode('artifactId', it.name)
+                                        dependencyNode.appendNode('version', it.version)
+                                    }
+                                }
+
+                                def licenses = asNode().appendNode('licenses')
+                                def license = licenses.appendNode('license')
+                                license.appendNode('name', "The Apache Software License, Version 2.0")
+                                license.appendNode('url', "http://www.apache.org/licenses/LICENSE-2.0.txt")
+                                license.appendNode('distribution', "repo")
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        aggregateJavadoc.classpath += files(android.libraryVariants.collect { variant ->
+            variant.javaCompile.classpath.files // external dependencies such as firebase, etc.
+        })
+        publish.dependsOn assembleRelease
+    }
+
+    preBuild.dependsOn rootProject.bumpVersionInProperties
+}
+
+task aggregateJavadoc(type: Javadoc) {
+    source project(':libraries').subprojects.collect { project ->
+        project.android.sourceSets.main.java.srcDirs
+    }
+    destinationDir = file("${rootProject.projectDir}/docs/")
+    title = "Kakao Android SDK - $rootProject.version"
+    description "Generates Javadoc for Kakao Android SDK - $project.version."
+
+    options {
+        locale = 'en_US'
+        encoding = 'UTF-8'
+        charSet = 'UTF-8'
+        author = false
+        noDeprecated = true
+        memberLevel = JavadocMemberLevel.PUBLIC
+        links("http://docs.oracle.com/javase/7/docs/api/")
+
+        doclet = "com.kakao.tools.doclets.standard.Standard"
+        docletpath = [rootProject.file('./doctemplate/capri-doclet.jar')]
+        stylesheetFile = rootProject.file('./doctemplate/capri-javadoc-stylesheet.css')
+    }
+
+    exclude '**/StringSet.java'
+    exclude '**/BuildConfig.java'
+    exclude '**/R.java'
+    exclude '**/exception/**'
+    exclude '**/helper/**'
+    exclude '**/multipart/**'
+    exclude '**/request/**'
+    exclude '**/response/**'
+//    exclude '**/callback/**'
+    exclude '**/auth/callback/**'
+    exclude '**/kakaostory/callback/**'
+    exclude '**/kakaotalk/callback/**'
+    exclude '**/usermgmt/callback/**'
+
+    exclude '**/auth/network/**'
+    exclude '**/receiver/**'
+    exclude '**/internal/**'
+    exclude '**/tasks/**'
+    exclude '**/common/**'
+    exclude '**/api/**'
+    exclude '**/ageauth/**'
+    exclude '**/kakaolink/v2/network/**'
+    exclude '**/friends/**'
+    exclude '**/s2/**'
+    exclude '**/storage/**'
+    exclude '**/SingleNetworkTask.java'
+    exclude "**/apicompatibility/**"
+    exclude "**/test/**"
+}
+
+aggregateJavadoc.doFirst {
+    aggregateJavadoc.classpath += files(project(':libraries').subprojects.collect { project ->
+        // online links to android library. needs linksOffline because d.android.com/reference does not have package-list (as of 08/25/2017)
+        aggregateJavadoc.options.linksOffline("http://d.android.com/reference", "${project.android.sdkDirectory}/docs/reference")
+        // add all sources to javadoc class path
+        return project.android.sourceSets.main.java.srcDirs
+    })
+}
+
+static def getModuleName(Project project, String name, String flavor) {
+    if (project.android.hasProperty('flavors')) {
+        def flavors = project.android.flavors
+        if ((flavor == null || flavor.isEmpty()) && flavors[name] != null) {
+            flavor = flavors[name]
+        }
+    }
+    String result = name
+    if (flavor != null && !flavor.isEmpty() && flavor != 'full') {
+        result += "-${flavor}"
+    }
+    if(project.defaultDeployPhase.toLowerCase() != 'release') {
+        result += "-${project.defaultDeployPhase.toLowerCase()}"
+    }
+    return result
+}
+
+static def getArtifactName(Project project, String flavor, boolean camel) {
+    def result = project.name
+    if (flavor != 'full' && flavor != '') {
+        if (camel) {
+            result += "${flavor.capitalize()}"
+        } else {
+            result += "-${flavor}"
+        }
+    }
+    return result
+}

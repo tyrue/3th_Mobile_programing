@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cancel">취소</string>
+    <string name="ok">확인</string>
+    <string name="text_check_ageauth">연령인증 확인</string>
+
+    <string name="title_check_age_info">인증확인 기준을 선택하세요</string>
+    <string name="title_auth_from">서비스 이름을 입력하세요</string>
+
+    <string name="text_default_value">앱설정(15세 이상)</string>
+    <string name="text_check_ageainfo_19_2">19세 이상</string>
+    <string name="text_check_ageinfo_19_2_CI">CI 가진 19세 이상</string>
+    <string name="text_check_ageinfo_19_2_CI_30">30일 이내 CI 가진 19세 이상</string>
+
+    <string name="text_is_western_age">만 나이여부</string>
+    <string name="text_is_skip_terms">동의하기 안내화면 skip 여부</string>
+</resources>

@@ -1,0 +1,216 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        jcenter()
+        google()
+        maven { url 'https://raw.github.com/xujiaao/mvn-repository/master/releases' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0-beta7'
+        classpath 'com.google.gms:google-services:3.1.0'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+plugins {
+    id 'org.ajoberstar.grgit' version '1.7.1'
+}
+
+import org.ajoberstar.grgit.Grgit;
+
+ext {
+    git = null;
+    try {
+        git = Grgit.open()
+        versionCode = git.tag.list().size()
+        version = git.describe().split('-')[0]
+        branchName = project.hasProperty("branch") ? project.property("branch") : git.branch.current.name;
+        println "current branch: ${branchName}"
+
+        if (branchName.startsWith('master')) {
+            // do not bump version for master branch because release version is already tagged.
+            project.versionCode = versionCode;
+            project.version = version;
+        } else if (branchName.startsWith('hotfix')) {
+            bumpVersion(rootProject, 'revision')
+        } else {
+            bumpVersion(rootProject, 'minor')
+        }
+    } catch (Exception e) {
+        versionCode = project.VERSION_CODE.toInteger()
+        version = project.KAKAO_SDK_VERSION
+        version += "-SNAPSHOT"
+    }
+
+    defaultDeployPhase = project.hasProperty("deploy_phase") ? project.property("deploy_phase") : project.DEFAULT_PHASE
+
+    println "version: ${project.version}"
+    println "versionCode: ${project.versionCode}"
+}
+
+apply plugin: 'java'
+
+subprojects {
+    repositories {
+        mavenCentral()
+        google()
+        maven { url 'http://devrepo.kakao.com:8088/nexus/content/groups/public/' }
+    }
+}
+
+// for publishing
+task cleanTask {
+    doLast {
+        println 'clean dist/ dir for copying and zipping full source...'
+        delete DIST_DIR
+    }
+}
+
+import org.apache.tools.ant.filters.ConcatFilter
+
+task changePhase {
+    shouldRunAfter(cleanTask)
+    doLast {
+        println ">>> changing DEFAULT_PHASE to ${project.defaultDeployPhase}"
+        ant.propertyfile(file: "${rootProject.projectDir}/gradle.properties") {
+            entry(key: 'DEFAULT_PHASE', value: project.defaultDeployPhase)
+        }
+    }
+}
+
+task revertPhase {
+    doLast {
+        println '>>> reverting DEFAULT_PHASE to release'
+        ant.propertyfile(file: "${rootProject.projectDir}/gradle.properties") {
+            entry(key: 'DEFAULT_PHASE', value: 'release')
+        }
+    }
+}
+
+task bumpVersionInProperties {
+    doLast {
+        if (!git) {
+            println "This is not a git repository. Using KAKAO_SDK_VERSION in gradle.properties."
+            return;
+        }
+
+        if (!project.hasProperty('KAKAO_SDK_VERSION')) {
+            println "There is no KAKAO_SDK_VERSION in gradle.properties.."
+            return;
+        }
+
+        if (rootProject.version.startsWith(project.property("KAKAO_SDK_VERSION")) && project.property("VERSION_CODE").toInteger() == rootProject.versionCode) {
+            println "KAKAO_SDK_VERSION is already updated to the latest version."
+            return;
+        }
+        ant.propertyfile(file: "${rootProject.projectDir}/gradle.properties") {
+            if (rootProject.hasProperty('KAKAO_SDK_VERSION')) {
+                println "bumping KAKAO_SDK_VERSION to ${rootProject.version}"
+                entry(key: 'VERSION_CODE', value: rootProject.versionCode)
+                entry(key: 'KAKAO_SDK_VERSION', value: rootProject.version)
+            }
+        }
+    }
+}
+
+task copyFullSource(dependsOn: [cleanTask, changePhase, bumpVersionInProperties]) {
+    doLast {
+        copy {
+            from  '.'
+            into project.DIST_FULL_SOURCE_DIR
+            exclude project.DIST_DIR
+            exclude relativePath(project.buildDir)
+            exclude '.gradle'
+            exclude '.idea'
+            exclude '**/*.iml'
+            exclude '**/*.sh'
+            exclude '**/README.md'
+            exclude '**/.build'
+            exclude '**/build'
+            exclude '**/.DS_Store'
+            exclude '**/doctemplate'
+            exclude '_gradle.properties'
+            exclude 'kakao-open-android-sdk-sample/build.gradle'
+            exclude 'kakao-open-android-ageauth-sample'
+            exclude 'auth/src/test'
+            exclude 'friends/src/test'
+            exclude 'kakaolink/src/test'
+            exclude 'kakaostory/src/test'
+            exclude 'kakaotalk/src/test'
+            exclude 'network/src/test'
+            exclude 'push/src/test'
+            exclude 'storage/src/test'
+            exclude 'usermgmt/src/test'
+            exclude 'util/src/test'
+            exclude 's2/src/test'
+            exclude 'kakao-open-android-link-sample/src/test'
+            exclude 'kakao-open-android-link-sample/src/androidTest'
+            exclude 'kakao-open-android-sdk-sample/src/test'
+            exclude 'kakao-open-android-sdk-sample/src/androidTest'
+        }
+
+        copy {
+            from 'gradle.properties'
+            into project.DIST_FULL_SOURCE_DIR
+
+            filter(ConcatFilter, append: file('_gradle.properties'))
+        }
+
+        String content = ""
+        File proFile = new File( "${project.DIST_FULL_SOURCE_DIR}/settings.gradle" )
+        proFile.readLines().each { String line ->
+            if (!line.contains(':kakao-open-android-ageauth-sample')) {
+                content = content.concat(line + '\n')
+            }
+        }
+        proFile.write(content)
+    }
+
+    finalizedBy('revertPhase')
+}
+
+task zipFullSource(type: Zip, dependsOn : copyFullSource) {
+    from project.DIST_FULL_SOURCE_DIR
+    destinationDir=file(project.DIST_DIR)
+    baseName="kakao-android-sdk-project"
+    version=project.version
+    classifier='full'
+    delete project.DIST_FULL_SOURCE_DIR
+}
+
+static def bumpVersion(Project project, String updateType) {
+    def phase =  project.hasProperty("deploy_phase") ? project.property("deploy_phase") : project.DEFAULT_PHASE
+    String rawVersion = project.ext.version
+    String[] version = rawVersion.split("\\.");
+    String updatedVersion;
+    String delimiter = ".";
+    int newVersion;
+    if (updateType == 'revision') {
+        newVersion = Integer.valueOf(version[2]) + 1;
+        updatedVersion = version[0] + delimiter + version[1] + delimiter + newVersion;
+
+    } else if (updateType == 'major') {
+        newVersion = Integer.valueOf(version[0]) + 1;
+        updatedVersion = newVersion + delimiter + 0 + delimiter + 0;
+
+    } else if (updateType == 'minor') {
+        newVersion = Integer.valueOf(version[1]) + 1;
+        updatedVersion = version[0] + delimiter + newVersion + delimiter + 0;
+    } else {
+        return rawVersion;
+    }
+    if (phase != 'release') {
+        updatedVersion += "-SNAPSHOT";
+    }
+
+    project.versionCode = project.ext.versionCode + 1;
+    project.version = updatedVersion;
+    return updatedVersion;
+}
+subprojects {
+    repositories {
+        mavenCentral()
+        maven { url 'http://devrepo.kakao.com:8088/nexus/content/groups/public/' }
+    }
+}

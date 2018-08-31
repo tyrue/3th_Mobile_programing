@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kakao.sdk.s2.sample.S2MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/selector_item_bg"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="180dp"
+            android:id="@+id/activity1">
+            <ImageView
+                android:background="@drawable/icon_main_01"
+                android:layout_width="79dp"
+                android:layout_height="79dp"/>
+
+            <TextView
+                android:layout_marginTop="7dp"
+                android:text="@string/text_activity1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/selector_item_bg"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="180dp"
+            android:id="@+id/activity2">
+            <ImageView
+                android:background="@drawable/icon_main_01"
+                android:layout_width="79dp"
+                android:layout_height="79dp"/>
+
+            <TextView
+                android:layout_marginTop="7dp"
+                android:text="@string/text_activity2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/selector_item_bg"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="180dp"
+            android:id="@+id/activity3">
+            <ImageView
+                android:background="@drawable/icon_main_01"
+                android:layout_width="79dp"
+                android:layout_height="79dp"/>
+
+            <TextView
+                android:layout_marginTop="7dp"
+                android:text="@string/text_activity3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/selector_item_bg"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="180dp"
+            android:id="@+id/settings">
+            <ImageView
+                android:background="@drawable/icon_main_01"
+                android:layout_width="79dp"
+                android:layout_height="79dp"/>
+
+            <TextView
+                android:layout_marginTop="7dp"
+                android:text="@string/text_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">내비 샘플</string>
+    <string name="title_activity_main">카카오내비 SDK 샘플</string>
+
+    <string name="button_run_kakaonavi">카카오내비 실행</string>
+</resources>

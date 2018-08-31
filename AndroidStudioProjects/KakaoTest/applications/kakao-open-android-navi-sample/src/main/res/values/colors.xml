@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navi_button">#feee35</color>
+
+
+    <!-- NEW DISIGN -->
+    <color name="color2">#B2B2B2</color>
+    <color name="color3">#2A2A2A</color>
+    <color name="color6">#FFFFFF</color>
+</resources>

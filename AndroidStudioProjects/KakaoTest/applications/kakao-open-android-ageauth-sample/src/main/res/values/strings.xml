@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Ageauth Sample</string>
+
+    <string name="text_for_login_kakao_account">Log in with Kakao</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="text_check_ageauth">check age athentication</string>
+    <string name="start">Start</string>
+
+    <string name="title_check_age_info">Select Standards of age auth info</string>
+    <string name="title_auth_from">Write Service Name</string>
+
+    <string name="text_default_value">app settings(age 15 and older)</string>
+    <string name="text_check_ageainfo_19_2">age 19 and older</string>
+    <string name="text_check_ageinfo_19_2_CI">age 19 and older with CI</string>
+    <string name="text_check_ageinfo_19_2_CI_30">age 19 and older with CI in 30 days</string>
+
+    <string name="text_is_western_age">Is western age</string>
+    <string name="text_is_skip_terms">Is skip approval terms</string>
+
+    <string-array name="title_check_age_info_list">
+        <item>@string/text_default_value</item>
+        <item>@string/text_check_ageainfo_19_2</item>
+        <item>@string/text_check_ageinfo_19_2_CI</item>
+        <item>@string/text_check_ageinfo_19_2_CI_30</item>
+    </string-array>
+</resources>

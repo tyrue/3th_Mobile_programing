@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.2'
+    }
+}
+
+
+subprojects {
+    repositories {
+        jcenter()
+        maven { url 'http://repo.maven.apache.org/maven2' }
+
+        mavenCentral()      // kakao api
+        maven { url 'http://devrepo.kakao.com:8088/nexus/content/groups/public/' } // 추가
+    }
+}
+
+allprojects {
+}

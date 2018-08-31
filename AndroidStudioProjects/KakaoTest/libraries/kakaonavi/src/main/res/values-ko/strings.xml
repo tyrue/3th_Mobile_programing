@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permission_error_title">위치 권한 에러</string>
+    <string name="permission_error_location">기기의 위치 권한을 켜주세요.</string>
+    <string name="permission_error_app_location">앱의 권한 설정에서 위치 권한을 켜주세요.</string>
+    <string name="permission_error_okay">확인</string>
+    <string name="permission_error_cancel">취소</string>
+</resources>

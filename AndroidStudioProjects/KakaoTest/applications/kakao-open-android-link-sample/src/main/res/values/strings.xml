@@ -1,0 +1,103 @@
+<resources>
+    // common
+    <string name="app_name">KakaoLink Sample</string>
+
+    <string name="kakao_app_key">da4271119e69b289aace2bca05735d26</string>
+    <string name="kakao_scheme">kakaoda4271119e69b289aace2bca05735d26</string>
+    <string name="kakaolink_host">kakaolink</string>
+
+    <string name="alpha_kakao_app_key">000015680000000100000141d90efb2c</string>
+    <string name="alpha_kakao_scheme">kakao000015680000000100000141d90efb2c</string>
+
+    <string name="beta_kakao_app_key">da4271119e69b289aace2bca05735d26</string>
+    <string name="beta_kakao_scheme">kakaoda4271119e69b289aace2bca05735d26</string>
+
+    <string name="sandbox_kakao_app_key">45b44dbd68d2a691c0dc636babbc6a74</string>
+    <string name="sandbox_kakao_scheme">kakao45b44dbd68d2a691c0dc636babbc6a74</string>
+    <string name="title_for_kakao_link_sample">Kakao SDK Link Sample</string>
+
+    // for kakaolink
+    <string name="text_type">Choose a text type</string>
+    <string-array name="text_types">
+        <item>@string/use_text</item>
+        <item>@string/no_text</item>
+    </string-array>
+
+    <string name="link_type">Choose a link type</string>
+    <string-array name="link_types">
+        <item>@string/use_weblink</item>
+        <item>@string/use_inweblink</item>
+        <item>@string/use_applink</item>
+        <item>@string/no_link</item>
+    </string-array>
+
+    <string name="image_type">Choose a image type</string>
+    <string-array name="image_types">
+        <item>@string/use_image</item>
+        <item>@string/no_image</item>
+    </string-array>
+
+    <string name="button_type">Choose a button type</string>
+    <string-array name="button_types">
+        <item>@string/use_appbutton</item>
+        <item>@string/use_webbutton</item>
+        <item>@string/no_button</item>
+    </string-array>
+
+    <string name="link_service_type">Link Service Type</string>
+    <string-array name="link_service_type">
+        <item>@string/story_url_scrap_link</item>
+        <item>@string/story_image_os_contents</item>
+    </string-array>
+
+    <string name="story_url_scrap_link">URL Scrap Link</string>
+    <string name="story_image_os_contents">Image OS contents</string>
+
+    <string name="use_text">Use Text</string>
+    <string name="no_text">No Text</string>
+    <string name="use_applink">Use App Link</string>
+    <string name="use_weblink">Use Web Link</string>
+    <string name="use_inweblink">Use InWeb Link</string>
+    <string name="no_link">No Link</string>
+    <string name="use_image">Use Image</string>
+    <string name="no_image">No Image</string>
+    <string name="use_appbutton">Use App Button</string>
+    <string name="use_webbutton">Use Web Button</string>
+    <string name="no_button">No Button</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="send_button">Send</string>
+    <string name="clear_button">Clear</string>
+    <string name="reset_message">Cancel All and Start Again?</string>
+
+    <string name="kakaolink_title_forwardable">Message Forwardable</string>
+    <string name="kakaolink_text">Welcome to KakaoLinkSample~\n\nThis Message sent from KakaoLinkSample App.</string>
+    <string name="kakaolink_applink">Connect</string>
+    <string name="kakaolink_weblink">Go to Website</string>
+    <string name="kakaolink_appbutton">View More</string>
+    <string name="kakaolink_webbutton">Go to Website</string>
+    <string name="send_message">Send the message below?</string>
+
+    <string name="title_activity_kakao_link35_main">KakaoTalk Link</string>
+    <string name="title_activity_kakao_link40_main">KakaoLink</string>
+    <string name="title_activity_kakao_link_upload">KakaoLink Image</string>
+    <string name="title_activity_kakao_story_link_main">KakaoStory Link</string>
+    <string name="title_activity_content_share">Content Share with KakaoLink</string>
+
+    <string name="title_send_kakao_link">Send KakaoLink</string>
+    <string name="title_default_feed">With default feed template</string>
+    <string name="title_default_list">With default list template</string>
+    <string name="title_default_location">With default location template</string>
+    <string name="title_default_commerce">With default commerce template</string>
+    <string name="title_default_text">With default text template</string>
+    <string name="title_scrap">With scrap template</string>
+    <string name="title_custom_feed">With custom template</string>
+
+    <string name="title_image_upload">Upload image</string>
+    <string name="title_image_scrap">Scrap image from URL</string>
+    <string name="title_image_delete">Delete image</string>
+
+    <string name="text_share_intent_chooser">Choose an app to share</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Navi Sample</string>
+    <string name="title_activity_main">KakaoNavi SDK Sample</string>
+
+    <string name="alpha_kakao_app_key">12ff2b5742bf882a429125bb5d63caa8</string>
+    <string name="beta_kakao_app_key">dd4e9cb75815cbdf7d87ed721a659baf</string>
+    <string name="sandbox_kakao_app_key">12ff2b5742bf882a429125bb5d63caa8</string>
+    <string name="kakao_app_key">c545d04ca2707e51d8c7eec7f507b340</string>
+
+    <string name="button_run_kakaonavi">Run KakaoNavi</string>
+</resources>

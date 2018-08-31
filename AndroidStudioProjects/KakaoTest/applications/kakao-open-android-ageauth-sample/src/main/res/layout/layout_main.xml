@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:background="@color/color6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical"
+                  android:gravity="center"
+                  android:padding="10dp"
+                  android:background="@color/color6"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/unlink"
+            android:background="@drawable/selector_button_03"
+            style="@style/button"
+            android:text="@string/com_kakao_unlink_button" />
+
+        <Button
+            android:id="@+id/check_age_auth"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/selector_button_03"
+            style="@style/button"
+            android:text="@string/text_check_ageauth" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:background="@color/color4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"/>
+
+        <com.kakao.sdk.ageauth.widget.KakaoDialogSpinner
+            xmlns:kakao="http://schemas.android.com/apk/res/com.kakao.sdk.ageauth.sample"
+            android:id="@+id/ageauth_level"
+            style="@style/spinner"
+            kakao:kakao_prompt="@string/title_check_age_info"
+            kakao:kakao_icon="@drawable/icon_select"
+            kakao:kakao_entries="@array/title_check_age_info_list"/>
+
+        <ImageView
+            android:background="@color/color4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/selector_item_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/text_is_western_age"
+                android:textSize="20sp"
+                android:textColor="@color/color3"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/is_western_age"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true"
+                android:button="@drawable/selector_check_box"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <ImageView
+            android:background="@color/color4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/selector_item_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/text_is_skip_terms"
+                android:textSize="20sp"
+                android:textColor="@color/color3"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/is_skip_terms"
+                android:checked="false"
+                android:clickable="true"
+                android:focusable="true"
+                android:button="@drawable/selector_check_box"
+                android:layout_gravity="right|center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <ImageView
+            android:background="@color/color4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"/>
+
+        <EditText
+            android:hint="@string/title_auth_from"
+            android:id="@+id/auth_from"
+            style="@style/com_kakao_profile_property_value" />
+
+        <ImageView
+            android:background="@color/color4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"/>
+    </LinearLayout>
+</ScrollView>

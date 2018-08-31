@@ -1,0 +1,10 @@
+evaluationDependsOn(':libraries')
+
+dependencies {
+    releaseImplementation project(path: ':libraries:auth', configuration: 'release')
+    debugImplementation project(path: ':libraries:auth', configuration: 'debug')
+}
+
+project.afterEvaluate {
+    publish.shouldRunAfter ':libraries:auth:publish'
+}

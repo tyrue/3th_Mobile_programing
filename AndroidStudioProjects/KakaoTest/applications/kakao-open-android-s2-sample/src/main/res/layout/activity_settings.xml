@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kakao.sdk.s2.sample.SettingsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:background="@color/color4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"/>
+
+        <CheckedTextView
+            android:id="@+id/activity1_event_button"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            style="@style/iconText"
+            android:onClick="onClick"
+            android:drawableLeft="@drawable/icon_link_02"
+            android:text="@string/text_events_activity1"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"/>
+
+        <ImageView
+            android:background="@color/color4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"/>
+
+        <CheckedTextView
+            android:id="@+id/activity2_event_button"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            style="@style/iconText"
+            android:onClick="onClick"
+            android:drawableLeft="@drawable/icon_link_02"
+            android:text="@string/text_events_activity2"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"/>
+
+        <ImageView
+            android:background="@color/color4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"/>
+
+        <CheckedTextView
+            android:id="@+id/activity3_event_button"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            style="@style/iconText"
+            android:onClick="onClick"
+            android:drawableLeft="@drawable/icon_link_02"
+            android:text="@string/text_events_activity3"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"/>
+
+        <ImageView
+            android:background="@color/color4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"/>
+
+        <CheckedTextView
+            android:id="@+id/publish_batched_events_button"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            style="@style/iconText"
+            android:onClick="onClick"
+            android:drawableLeft="@drawable/icon_link_02"
+            android:text="@string/events_publish_multiple" />
+    </LinearLayout>
+</ScrollView>

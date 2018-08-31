@@ -1,0 +1,59 @@
+<resources>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="com_kakao_navi_location_style" parent="@android:style/Widget.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">57dp</item>
+        <!--<item name="android:layout_marginLeft">16sp</item>-->
+        <!--<item name="android:layout_marginRight">16sp</item>-->
+        <item name="android:layout_marginBottom">10sp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textColorHint">@color/color2</item>
+        <item name="android:textColor">@color/color3</item>
+        <item name="android:background">@drawable/selector_editbox_bg</item>
+    </style>
+
+    <style name="com_kakao_navi_spinner_style" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textColor">@color/color3</item>
+        <item name="android:layout_height">57dp</item>
+        <item name="android:layout_marginBottom">10sp</item>
+        <!--<item name="android:textSize">20sp</item>-->
+        <item name="android:inputType">text</item>
+        <item name="android:textColorHint">@color/color2</item>
+        <item name="android:background">@drawable/selector_item_bg</item>
+        <!--<item name="android:drawableRight">@drawable/icon_arrow</item>-->
+        <item name="android:padding">0dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+
+    <style name="com_kakao_navi_spinner_item_style" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+
+    </style>
+
+    <style name="com_kakao_navi_button_style" parent="@android:style/Widget.Button">
+        <item name="android:layout_margin">10sp</item>
+        <item name="android:radius">5sp</item>
+        <item name="android:background">@color/navi_button</item>
+    </style>
+
+    <style name="button" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@color/color6</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_height">57dp</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+
+</resources>

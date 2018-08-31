@@ -1,0 +1,14 @@
+evaluationDependsOn(':applications')
+
+android {
+    defaultConfig {
+        missingDimensionStrategy 'adid', 'full', 'lite'
+    }
+}
+
+dependencies {
+    implementation project(':libraries:s2')
+    implementation "com.android.support:appcompat-v7:$ANDROID_SUPPORT_LIB_VERSION"
+    
+    testImplementation 'junit:junit:4.12'
+}

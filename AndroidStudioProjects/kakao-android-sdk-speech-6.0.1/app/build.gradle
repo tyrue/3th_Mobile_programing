@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    compileSdkVersion Integer.parseInt(project.ANDROID_COMPILE_SDK_VERSION)
+    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        applicationId 'com.kakao.sdk.newtone.sample'
+        minSdkVersion Integer.parseInt(project.ANDROID_MIN_SDK_VERSION)     //10    //11
+        targetSdkVersion Integer.parseInt(project.ANDROID_TARGET_SDK_VERSION)
+        versionCode 1
+        versionName project.LIBRARY_VERSION_NAME
+
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    buildToolsVersion '25.0.0'
+}
+
+
+// dependency가 snapshot이 있는 경우에만 사용.
+configurations.all {
+    // check for updates every build
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
+repositories {
+}
+
+dependencies {
+//    compile 'com.kakao.sdk:newtone:6.0.1-SNAPSHOT'
+    compile 'com.kakao.sdk:newtone:6.0.1'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+}

@@ -1,0 +1,8 @@
+evaluationDependsOn(':libraries')
+
+dependencies {
+    //    releaseImplementation project(path: ':libraries:network', configuration: 'releaseApiElements')
+    //    debugImplementation project(path: ':libraries:network', configuration: 'debugApiElements')
+    api project(':libraries:network')
+    implementation "com.android.support:appcompat-v7:$ANDROID_SUPPORT_LIB_VERSION"
+}

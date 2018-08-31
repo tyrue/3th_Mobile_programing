@@ -1,0 +1,9 @@
+evaluationDependsOn(':libraries')
+
+android {
+    defaultConfig {
+        buildConfigField "String", "DEPLOY_PHASE", "\"$project.defaultDeployPhase\""
+        buildConfigField "boolean", "SHOW_LOGS", "${project.hasProperty('showLogs') ? showLogs.toBoolean() : true}"
+        buildConfigField "String", "SDK_VERSION", "\"$project.version\""
+    }
+}

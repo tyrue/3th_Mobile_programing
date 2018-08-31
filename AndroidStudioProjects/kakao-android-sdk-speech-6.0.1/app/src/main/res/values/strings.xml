@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KakaoSpeechOpenApiSample</string>
+    <string name="main_label">NEWTONE API</string>
+    <string name="stt_description">  Newtone Open API 샘플입니다 (인식)\n
+        \n
+         Start to speak: 직접 음성인식 실행\n
+         Open Activity: 제공된 UI를 통해 음성인식\n
+    </string>
+    <string name="tts_description">  Newtone talk Open API 샘플입니다 (합성)</string>
+    <string name="start_button">Start to speak</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="restart_button">Restart</string>
+    <string name="stop_button">Stop</string>
+    <string name="ui_button">Open Activity</string>
+    <string name="tts_button">Open TTS</string>
+    
+    <string name="radio_web">웹검색</string>
+    <string name="radio_local">지도</string>
+    <string name="radio_dictation">연속어</string>
+    <string name="radio_word">고립어</string>
+    
+    <string name="initial_words">이전\n선택\n다음</string>
+
+    <string name="mode_select_title">합성방식선택</string>
+    <string-array name="mode">
+        <item>Newtone Talk 1</item>
+        <item>Newtone Talk 2</item>
+    </string-array>
+
+    <string name="voice_select_title">음색선택</string>
+    <string name="man_read_calm">남자 낭독체</string>
+    <string name="woman_read_calm">여자 낭독체</string>
+    <string name="man_dialog_bright">남자 대화체</string>
+    <string name="woman_dialog_bright">여자 대화체</string>
+    <string name="speed_select_title">속도선택 (Newtone Talk1 만 변경 가능)</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">S2 이벤트 샘플</string>
+    <string name="text_activity1">액티비티 1</string>
+    <string name="text_activity2">액티비티 2</string>
+    <string name="text_activity3">액티비티 3</string>
+    <string name="text_settings">설정</string>
+
+    <string name="events_publish_multiple">이벤트 배치 보내기</string>
+
+
+    <string name="text_events_activity1">액티비티 1 이벤트 트래킹</string>
+    <string name="text_events_activity2">액티비티 2 이벤트 트래킹</string>
+    <string name="text_events_activity3">액티비티 3 이벤트 트래킹</string>
+</resources>

@@ -1,0 +1,6 @@
+evaluationDependsOn(':applications')
+
+dependencies {
+    implementation project(':libraries:kakaolink')
+    implementation "com.android.support:appcompat-v7:$ANDROID_SUPPORT_LIB_VERSION"
+}

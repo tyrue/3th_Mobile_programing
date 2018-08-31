@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">kakaonavi</string>
+    <string name="permission_error_title">Location permission error</string>
+    <string name="permission_error_location">Turn on your device\'s location permission.</string>
+    <string name="permission_error_app_location">Turn on location permission on app permission settings.</string>
+    <string name="permission_error_okay">Okay</string>
+    <string name="permission_error_cancel">Cancel</string>
+</resources>

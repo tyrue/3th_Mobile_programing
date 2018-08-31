@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/applications" />
+            <option value="$PROJECT_DIR$/applications/kakao-open-android-link-sample" />
+            <option value="$PROJECT_DIR$/applications/kakao-open-android-navi-sample" />
+            <option value="$PROJECT_DIR$/applications/kakao-open-android-s2-sample" />
+            <option value="$PROJECT_DIR$/applications/kakao-open-android-sdk-sample" />
+            <option value="$PROJECT_DIR$/libraries" />
+            <option value="$PROJECT_DIR$/libraries/auth" />
+            <option value="$PROJECT_DIR$/libraries/friends" />
+            <option value="$PROJECT_DIR$/libraries/kakaolink" />
+            <option value="$PROJECT_DIR$/libraries/kakaonavi" />
+            <option value="$PROJECT_DIR$/libraries/kakaostory" />
+            <option value="$PROJECT_DIR$/libraries/kakaotalk" />
+            <option value="$PROJECT_DIR$/libraries/message-template" />
+            <option value="$PROJECT_DIR$/libraries/network" />
+            <option value="$PROJECT_DIR$/libraries/push" />
+            <option value="$PROJECT_DIR$/libraries/s2" />
+            <option value="$PROJECT_DIR$/libraries/test-common" />
+            <option value="$PROJECT_DIR$/libraries/usermgmt" />
+            <option value="$PROJECT_DIR$/libraries/util" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

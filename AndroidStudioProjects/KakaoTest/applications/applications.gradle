@@ -1,0 +1,104 @@
+subprojects {
+    apply plugin: 'com.android.application'
+
+    android {
+        compileOptions.encoding = "UTF-8"
+        version = project.APP_VERSION
+        project.ext.set("defaultDeployPhase", "${project.hasProperty('deploy_phase') ? deploy_phase.toString() : "$DEFAULT_PHASE"}")
+
+        compileSdkVersion ANDROID_BUILD_SDK_VERSION
+        buildToolsVersion ANDROID_BUILD_TOOL_VERSION
+
+        defaultConfig {
+            minSdkVersion ANDROID_BUILD_MIN_SDK_VERSION
+            targetSdkVersion ANDROID_BUILD_TARGET_SDK_VERSION
+            versionCode Integer.parseInt(project.APP_VERSION)
+            versionName project.APP_VERSION_NAME
+            testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        }
+
+        buildTypes {
+            debug {
+                debuggable true
+//                minifyEnabled true
+                zipAlignEnabled true
+//                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            }
+        }
+
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+
+        lintOptions {
+            checkReleaseBuilds true
+            abortOnError false
+            checkAllWarnings true
+            xmlReport true
+            htmlReport true
+            disable "InvalidPackage", "MissingTranslation"
+        }
+
+        packagingOptions {
+            exclude 'META-INF/LICENSE'
+            exclude 'META-INF/NOTICE'
+            exclude 'META-INF/maven/com.google.guava/guava/pom.properties'
+            exclude 'META-INF/maven/com.google.guava/guava/pom.xml'
+        }
+
+        android.applicationVariants.all { variant ->
+            variant.outputs.all { output ->
+                output.processManifest.doLast {
+                    String manifestPath = "$manifestOutputDirectory/AndroidManifest.xml"
+                    println ">> processManifest $manifestPath"
+                    def appKeyName = 'kakao_app_key'
+                    def appSchemeName = 'kakao_scheme'
+                    def clientSecret = 'kakao_client_secret'
+                    def file = file(manifestPath)
+                    replaceString(file, appKeyName, addPrefix(project, appKeyName))
+                    replaceString(file, appSchemeName, addPrefix(project, appSchemeName))
+                    replaceString(file, clientSecret, addPrefix(project, clientSecret))
+                }
+            }
+        }
+    }
+
+    preBuild.dependsOn rootProject.bumpVersionInProperties
+
+    dependencies {
+        androidTestImplementation('com.android.support.test:runner:0.5') {
+            exclude group: 'com.android.support', module: 'support-annotations'
+        }
+        androidTestImplementation('com.android.support.test:rules:0.5') {
+            exclude group: 'com.android.support', module: 'support-annotations'
+        }
+        // Optional -- Hamcrest library
+        // Optional -- UI testing with Espresso
+        androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2') {
+            exclude group: 'com.android.support', module: 'support-annotations'
+        }
+        androidTestImplementation('com.android.support.test.espresso:espresso-intents:2.2.2') {
+            exclude group: 'com.android.support', module: 'support-annotations'
+        }
+        androidTestImplementation('com.android.support.test.espresso:espresso-web:2.2.2') {
+            exclude group: 'com.android.support', module: 'support-annotations'
+        }
+
+        androidTestImplementation "com.android.support:support-annotations:$ANDROID_SUPPORT_LIB_VERSION"
+        androidTestImplementation "org.hamcrest:hamcrest-library:$HAMCREST_VERSION"
+    }
+}
+
+static def addPrefix(Project project, String value) {
+    def result = value
+    if(project.defaultDeployPhase.toLowerCase() != 'release') {
+        result = project.defaultDeployPhase.toLowerCase() + "_" + result
+    }
+    return result
+}
+
+static def replaceString(file, fromString, toString) {
+    def updatedContent = file.getText('UTF-8').replaceAll(fromString, toString)
+    file.write(updatedContent, 'UTF-8')
+}

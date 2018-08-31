@@ -1,0 +1,13 @@
+<resources>
+    <string name="kakao_app_key">fa63a0b2356e923f3edd6512d531f546</string>
+    <string name="kakao_scheme">kakaofa63a0b2356e923f3edd6512d531f546</string>
+
+    <string name="alpha_kakao_app_key">9be4d63bef8dd17a1d62c71255db19fb</string>
+    <string name="alpha_kakao_scheme">kakao9be4d63bef8dd17a1d62c71255db19fb</string>
+
+    <string name="beta_kakao_app_key">fa63a0b2356e923f3edd6512d531f546</string>
+    <string name="beta_kakao_scheme">kakaofa63a0b2356e923f3edd6512d531f546</string>
+
+    <string name="sandbox_kakao_app_key">fe4659b6b99b4b9344f974c998ce4d7b</string>
+    <string name="sandbox_kakao_scheme">kakaofe4659b6b99b4b9344f974c998ce4d7b</string>
+</resources>

@@ -1,0 +1,11 @@
+evaluationDependsOn(':applications')
+
+android {
+    defaultConfig {
+        missingDimensionStrategy 'adid', 'lite', 'full'
+    }
+}
+
+dependencies {
+    implementation project(':libraries:usermgmt')
+}

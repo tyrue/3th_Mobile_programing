@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:descendantFocusability="beforeDescendants"
+		android:focusable="true"
+		android:focusableInTouchMode="true" >
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:text="@string/stt_description"
+			android:layout_gravity="center"
+			android:layout_marginTop="20dp"
+			android:layout_marginBottom="20dp"
+			android:maxLines="4" />
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:orientation="horizontal"
+			android:layout_weight="1" >
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/start_button"
+				android:id="@+id/speechbutton" android:layout_gravity="center"/>
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/ui_button"
+				android:layout_marginLeft="30dp"
+				android:id="@+id/uibutton" android:layout_gravity="center"/>
+			<requestFocus />
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="16dp"
+			android:orientation="horizontal"
+			android:layout_weight="1" >
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/cancel_button"
+				android:id="@+id/cancelbutton" />
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/stop_button"
+				android:layout_marginLeft="30dp"
+				android:id="@+id/stopbutton" />
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/restart_button"
+				android:layout_marginLeft="30dp"
+				android:id="@+id/restartbutton" />
+		</LinearLayout>
+
+		<RadioGroup
+			android:id="@+id/service_group"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="16dp"
+			android:orientation="horizontal" >
+
+			<RadioButton
+				android:id="@+id/web"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:checked="true"
+				android:text="@string/radio_web"
+				android:layout_weight="1"/>
+
+			<RadioButton
+				android:id="@+id/dictation"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/radio_dictation"
+				android:layout_weight="1" />
+
+			<RadioButton
+				android:id="@+id/local"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/radio_local"
+				android:layout_weight="1" />
+
+			<RadioButton
+				android:id="@+id/word"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/radio_word"
+				android:layout_weight="1" />
+
+		</RadioGroup>
+
+		<EditText
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:minLines="3"
+			android:layout_marginTop="16dp"
+			android:inputType="textMultiLine"
+			android:focusable="true"
+			android:focusableInTouchMode="true"
+			android:text="@string/initial_words"
+			android:id="@+id/words_edit"
+			android:layout_weight="1" />
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="10dp"
+			android:text="@string/tts_description"
+			android:layout_gravity="center"
+			android:textSize="18sp"
+			android:minLines="2"
+			android:layout_weight="1"
+			android:maxLines="1" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/tts_button"
+			android:layout_gravity="center_horizontal"
+			android:id="@+id/ttsbutton"
+			android:layout_weight="1" />
+	</LinearLayout>
+</LinearLayout>
+

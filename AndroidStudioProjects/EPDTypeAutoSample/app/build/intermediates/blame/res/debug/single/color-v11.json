@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Assignment\\naverspeech-sdk-android-master\\samples\\EPDTypeAutoSample\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "D:\\Android\\.android\\build-cache\\ce8f64aad3522f5cfdf5596445813ba24dea39a5\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "D:\\Assignment\\naverspeech-sdk-android-master\\samples\\EPDTypeAutoSample\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "D:\\Android\\.android\\build-cache\\ce8f64aad3522f5cfdf5596445813ba24dea39a5\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

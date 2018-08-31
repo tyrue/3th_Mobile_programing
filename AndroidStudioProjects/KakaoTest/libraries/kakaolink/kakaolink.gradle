@@ -1,0 +1,6 @@
+evaluationDependsOn(':libraries')
+
+dependencies {
+    api project(':libraries:network')
+    api project(':libraries:message-template')
+}

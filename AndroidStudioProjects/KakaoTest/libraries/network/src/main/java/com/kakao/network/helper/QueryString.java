@@ -1,0 +1,54 @@
+/**
+ * Copyright 2014-2015 Kakao Corp.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package com.kakao.network.helper;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
+
+/**
+ * @author leoshin on 15. 9. 23.
+ */
+public class QueryString {
+    private String query = "";
+
+    public QueryString() {
+    }
+
+    public void add(String name, String value) {
+        if (query.length() > 0) {
+            query += "&";
+        }
+        encode(name, value);
+    }
+
+    private void encode(String name, String value) {
+        try {
+            query += URLEncoder.encode(name, "UTF-8");
+            query += "=";
+            query += URLEncoder.encode(value, "UTF-8");
+        } catch (UnsupportedEncodingException ex) {
+            throw new RuntimeException("Broken VM does not support UTF-8");
+        }
+    }
+
+    public String getQuery() {
+        return query;
+    }
+
+    public String toString() {
+        return getQuery();
+    }
+}

@@ -1,0 +1,450 @@
+[
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_default_profile_image.png",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\35eddc08fa8d112b433e146be839db7ac310a2e4\\output\\res\\drawable\\kakao_default_profile_image.png"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\newtone_icon.png",
+        "source": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\src\\main\\res\\drawable\\newtone_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_splash.xml",
+        "source": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\src\\main\\res\\drawable\\background_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_profile_boxbg.9.png",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\35eddc08fa8d112b433e146be839db7ac310a2e4\\output\\res\\drawable\\kakao_profile_boxbg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_editable_profile.png",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\5129ffd1efb29648482305170ca187b629cb2123\\output\\res\\drawable\\kakao_editable_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_kakao_sdk_asr_bt_voice_record_selector.xml",
+        "source": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\src\\main\\res\\drawable\\com_kakao_sdk_asr_bt_voice_record_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_account_button_background.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\5129ffd1efb29648482305170ca187b629cb2123\\output\\res\\drawable\\kakao_account_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_default_profile_image.png",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\5129ffd1efb29648482305170ca187b629cb2123\\output\\res\\drawable\\kakao_default_profile_image.png"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\newtone_icon.png",
+        "source": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\src\\main\\res\\drawable\\newtone_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_login_button_background.9.png",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\35eddc08fa8d112b433e146be839db7ac310a2e4\\output\\res\\drawable\\kakao_login_button_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_login_bar.png",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\35eddc08fa8d112b433e146be839db7ac310a2e4\\output\\res\\drawable\\kakao_login_bar.png"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_account_logo.png",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\5129ffd1efb29648482305170ca187b629cb2123\\output\\res\\drawable\\kakao_account_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_editable_profile.png",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\35eddc08fa8d112b433e146be839db7ac310a2e4\\output\\res\\drawable\\kakao_editable_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_kakao_sdk_asr_bt_refresh_selector.xml",
+        "source": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\src\\main\\res\\drawable\\com_kakao_sdk_asr_bt_refresh_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_kakao_sdk_asr_bt_top_close_selector.xml",
+        "source": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\src\\main\\res\\drawable\\com_kakao_sdk_asr_bt_top_close_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_icon.png",
+        "source": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\src\\main\\res\\drawable\\search_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_account_logo.png",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\35eddc08fa8d112b433e146be839db7ac310a2e4\\output\\res\\drawable\\kakao_account_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_kakao_sdk_asr_bt_top_close_selector.xml",
+        "source": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\src\\main\\res\\drawable\\com_kakao_sdk_asr_bt_top_close_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_kakao_sdk_asr_bt_top_refresh_selector.xml",
+        "source": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\src\\main\\res\\drawable\\com_kakao_sdk_asr_bt_top_refresh_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_cancel_button_background.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\5129ffd1efb29648482305170ca187b629cb2123\\output\\res\\drawable\\kakao_cancel_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_login_symbol.png",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\5129ffd1efb29648482305170ca187b629cb2123\\output\\res\\drawable\\kakao_login_symbol.png"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_login_bar.png",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\5129ffd1efb29648482305170ca187b629cb2123\\output\\res\\drawable\\kakao_login_bar.png"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_cancel_button_background.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\35eddc08fa8d112b433e146be839db7ac310a2e4\\output\\res\\drawable\\kakao_cancel_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_kakao_sdk_asr_bt_refresh_selector.xml",
+        "source": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\src\\main\\res\\drawable\\com_kakao_sdk_asr_bt_refresh_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_kakao_sdk_asr_bt_top_refresh_selector.xml",
+        "source": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\src\\main\\res\\drawable\\com_kakao_sdk_asr_bt_top_refresh_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_kakao_sdk_asr_bg_focus_selector.xml",
+        "source": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\src\\main\\res\\drawable\\com_kakao_sdk_asr_bg_focus_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_kakao_sdk_asr_bt_voice_record_selector.xml",
+        "source": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\src\\main\\res\\drawable\\com_kakao_sdk_asr_bt_voice_record_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_kakao_sdk_asr_bt_kakao_selector.xml",
+        "source": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\src\\main\\res\\drawable\\com_kakao_sdk_asr_bt_kakao_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_login_button_background.9.png",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\5129ffd1efb29648482305170ca187b629cb2123\\output\\res\\drawable\\kakao_login_button_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_splash.xml",
+        "source": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\src\\main\\res\\drawable\\background_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_account_button_background.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\35eddc08fa8d112b433e146be839db7ac310a2e4\\output\\res\\drawable\\kakao_account_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_profile_boxbg.9.png",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\5129ffd1efb29648482305170ca187b629cb2123\\output\\res\\drawable\\kakao_profile_boxbg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\kakao_login_symbol.png",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\35eddc08fa8d112b433e146be839db7ac310a2e4\\output\\res\\drawable\\kakao_login_symbol.png"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_kakao_sdk_asr_bg_focus_selector.xml",
+        "source": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\src\\main\\res\\drawable\\com_kakao_sdk_asr_bg_focus_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_kakao_sdk_asr_bt_kakao_selector.xml",
+        "source": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\src\\main\\res\\drawable\\com_kakao_sdk_asr_bt_kakao_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_icon.png",
+        "source": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\src\\main\\res\\drawable\\search_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\kevin.kang\\Downloads\\KakaoASROpenApiSampleAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\kevin.kang\\.android\\build-cache\\046936190f5a3e8518b8767cb60632ce77970d08\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\DooHyun\\AndroidStudioProjects\\kakao-android-sdk-speech-6.0.1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\DooHyun\\.android\\build-cache\\d24df17809a96eccd674737252784f30537df945\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    }
+]

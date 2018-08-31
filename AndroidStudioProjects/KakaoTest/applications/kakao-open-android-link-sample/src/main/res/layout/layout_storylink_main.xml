@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:background="@color/color6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <com.kakao.sdk.link.sample.common.widget.KakaoDialogSpinner
+            xmlns:kakao="http://schemas.android.com/apk/res/com.kakao.sdk.link.sample"
+            android:id="@+id/send_type"
+            style="@style/spinner"
+            kakao:kakao_prompt="@string/link_service_type"
+            kakao:kakao_icon="@drawable/icon_link_01"
+            kakao:kakao_entries="@array/link_service_type"/>
+
+        <ImageView
+            android:background="@color/color4"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="57dp">
+
+            <Button
+                android:id="@+id/send"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                style="@style/button"
+                android:background="@drawable/btn_b"
+                android:text="@string/send_button" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

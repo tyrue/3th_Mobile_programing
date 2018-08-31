@@ -1,0 +1,21 @@
+<resources>
+    <string name="kakaotalk_host">kakaotalk</string>
+    <string name="kakaolink_host">kakaolink</string>
+    <string name="kakaostory_host">kakaostory</string>
+
+    <string name="alpha_kakao_app_key">ec09748675bf7cc01d638d8c40a79c85</string>
+    <string name="alpha_kakao_scheme">kakaoec09748675bf7cc01d638d8c40a79c85</string>
+    <string name="alpha_kakao_client_secret">50LxgHsF3Q3ayNa3nJpTTMEfBR8KkY7X</string>
+
+    <string name="sandbox_kakao_app_key">cd9b86b063c3037851a4671c1712c01b</string>
+    <string name="sandbox_kakao_scheme">kakaocd9b86b063c3037851a4671c1712c01b</string>
+    <string name="sandbox_kakao_client_secret">50LxgHsF3Q3ayNa3nJpTTMEfBR8KkY7X</string>
+
+    <string name="beta_kakao_app_key">dd4e9cb75815cbdf7d87ed721a659baf</string>
+    <string name="beta_kakao_scheme">kakaodd4e9cb75815cbdf7d87ed721a659baf</string>
+    <string name="beta_kakao_client_secret">50LxgHsF3Q3ayNa3nJpTTMEfBR8KkY7X</string>
+
+    <string name="kakao_app_key">dd4e9cb75815cbdf7d87ed721a659baf</string>
+    <string name="kakao_scheme">kakaodd4e9cb75815cbdf7d87ed721a659baf</string>
+    <string name="kakao_client_secret">50LxgHsF3Q3ayNa3nJpTTMEfBR8KkY7X</string>
+</resources>

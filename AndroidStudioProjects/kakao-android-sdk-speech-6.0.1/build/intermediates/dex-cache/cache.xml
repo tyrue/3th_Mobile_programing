@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\d24df17809a96eccd674737252784f30537df945\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef8b6fe68b3a6651c48ccf2d6d363014180723e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\199bb0627273112437ecafb9b2d94ccaf7e79764\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_973430490020d43b1cf37fa7b160d5085b4d111e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\bbb7fca96af5afb9aa8fb1e4f97573a78505ad5f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cc78fc2e04807053208955eb4b04cf9fea224715\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\b480d336ef454c827ea3aff84266450262df71de\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_40c60672a8781f0cd5dcbcc0c8ab1bdc3d2f9ba7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\29170766dcfe69d5ef127e3bc67d5ad90df7fe3a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_140a855620f52086f7d49e959af6e6c564871ab2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\b480d336ef454c827ea3aff84266450262df71de\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ac6454e97018b311d6e16f2dc52b6e0d005aa16d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\f62b644d975b92192cc75877f57e3f56fae96e6d\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_86603004d2a14cbc8cb169512b4565e2339d4423\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ac43f392c09a9e0d87d5f7ff953f2eb5070f5194">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b3039c90a75304fc17f4eb8954bcccc6be97d181\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\d7631c4f95ca14bd660d907d30bb328e53aa71e1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a693a0ee370428033a2ba363fa8fffaf30a943db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\2dc63714b7477ec75c9f9962d81834c3abe32686\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_857e8a7afbfa67f5fc740b8264ec55325a7bd41e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\559800ead6c84e96007823943387d8deff25fb12\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1a099dd816a6af6f86090fad12a0f3b36df88833">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d0b0435c7f74e93e2234ff46b1fd78e41439e43c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_ec5f696e03131415f2046f36484a8a9b6071d24f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\fb68d737518fa586e9c16d12424999ed5ba74488\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e6c5a5f1001f7b8ef49ccad45fe6eb6f1d426fae">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eb49f905ffd15977b1651db87e6c05fd05b9953f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\b6e11f22e62ac38992ff1b5688df6a4bdead6bc1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="14e9046d3e5cccff8065a6738ddd1e7054722378">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e77752392e5beded34fdd2f9e69229ec6abf17ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\f62b644d975b92192cc75877f57e3f56fae96e6d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d46b5dd6fec6f202d1b5f5672bff990997b6c1f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\d7631c4f95ca14bd660d907d30bb328e53aa71e1\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_f03e69f9f576b165939ea099f3c3bac49940f722\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\5129ffd1efb29648482305170ca187b629cb2123\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c3fc6f9fc9da7044a4ae48cfd0fa7a27edf2437">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0dfe43646cfafe49a3d36de6620307f98ac7587a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\199bb0627273112437ecafb9b2d94ccaf7e79764\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_cd19f90931ad14d02336c11ac11b43d29b0e99a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5efe8692f18e78765edc34ac5606d5785f3f09f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\2dc63714b7477ec75c9f9962d81834c3abe32686\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2e8464fc4074577dd8886ed81745d45ecc67ca5a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\DooHyun\.android\build-cache\6230e1871d49ada2f72ec824a8d119de180c14c4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\DooHyun\AndroidStudioProjects\kakao-android-sdk-speech-6.0.1\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_239559186ae7f9e4a365286ede4d848c7e9f8927\classes.dex" />
+    </item>
+
+</items>

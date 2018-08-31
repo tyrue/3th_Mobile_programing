@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "138844415892",
+    "firebase_url": "https://kakao-open-android-sdk-2e704.firebaseio.com",
+    "project_id": "kakao-open-android-sdk-2e704",
+    "storage_bucket": "kakao-open-android-sdk-2e704.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138844415892:android:8ae65b6567f66661",
+        "android_client_info": {
+          "package_name": "com.kakao.sdk.sample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138844415892-61k006di9j2v3lucmaedihlsfgps3t92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_2jodFX9Apt9UvUM_xHRbFmRJt5Lf8jY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

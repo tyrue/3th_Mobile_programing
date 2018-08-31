@@ -1,0 +1,5 @@
+evaluationDependsOn(':libraries')
+
+dependencies {
+    api project(':libraries:util')
+}
