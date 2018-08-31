@@ -1,7 +1,0 @@
-#Sat Dec 16 21:43:33 KST 2017
-base.0=D\:\\Assignment\\naverspeech-sdk-android-master\\samples\\EPDTypeAutoSample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a547195fbc88499199953d86941551f973ffffd6
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=D\:\\Assignment\\naverspeech-sdk-android-master\\samples\\EPDTypeAutoSample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_55b4ab04ea7c9a7624605c8d4ce375206ee9457a\\classes.dex
-base.1=D\:\\Assignment\\naverspeech-sdk-android-master\\samples\\EPDTypeAutoSample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_55b4ab04ea7c9a7624605c8d4ce375206ee9457a
-file.0=D\:\\Assignment\\naverspeech-sdk-android-master\\samples\\EPDTypeAutoSample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a547195fbc88499199953d86941551f973ffffd6\\classes.dex
